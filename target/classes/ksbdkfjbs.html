@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gi gi do</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <style>
+        img{
+            width: 600px;
+            height: 500px;
+        }
+        input{
+            margin: 20px 180px;
+        }
+    </style>
+</head>
+<body>
+   <script src="script.js"></script>
+   <form th:action="@{/searchBox}" method="POST">
+    <img src="" alt="" id="image"> <br>
+    <input type="file" name="" id="imageFile" onchange="chooseFile(this)"
+        accept="image/gif, image/jpeg, image/png">
+   </form>
+</body>
+</html>
